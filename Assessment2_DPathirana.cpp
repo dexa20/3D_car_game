@@ -374,7 +374,7 @@ void main() {
                     backwardVelocity -= acceleration * frameTime;
                 }
 
-                if (myEngine->KeyHeld(Key_D) && !myEngine->KeyHeld(Key_A))
+                if (myEngine->KeyHeld(Key_Q) && !myEngine->KeyHeld(Key_A))
                 {
                     playerCarModel->RotateY(-turningVelocity * frameTime);
                     turningRight = true;
